@@ -1,0 +1,69 @@
+.footer {
+  font-family: 'Kanit', sans-serif;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-content-left,
+.footer-content-center,
+.footer-content-right {
+  flex: 1;
+  margin: 1rem;
+}
+
+.footer-content-left img {
+  width: 10rem;
+  height: 3rem;
+}
+.footer-social-icons img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.footer-content-left p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+.footer-social-icons {
+  margin-top: 1rem;
+}
+
+.footer-content-center h2,
+.footer-content-right h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-content-center ul,
+.footer-content-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-content-center li,
+.footer-content-right li {
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.footer hr {
+  border: none;
+  border-top: 1px solid white;
+  margin: 1rem 0;
+}
+
+.footer-copyright {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}

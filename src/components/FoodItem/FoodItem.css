@@ -1,0 +1,93 @@
+.food-item {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Kanit', sans-serif;
+    align-items: center;
+}
+
+.food-item-img-container {
+    flex-shrink: 0;
+}
+
+.food-item-image {
+    width: 80px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10%; 
+}
+
+.food-item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1; /* Ensure this takes up remaining space */
+}
+
+.food-item-name-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food-item-name-rating p {
+    font-size: 1.2rem;
+    color: white; /* Make the text white */
+    font-weight: bold;
+    margin: 0;
+}
+
+.food-item-name-rating img {
+    width: 90px; 
+    height: auto; 
+}
+
+.food-item-desc {
+    font-size: 0.9rem;
+    color: white;
+    margin: 5px 0;
+}
+
+.food-item-price {
+    font-size: 1rem;
+    color: #c49b5d;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.add-to-cart {
+    position: absolute;
+    width: 24px; 
+    height: 24px; 
+    margin-left: 10rem; 
+    cursor: pointer;
+}
+
+.food-item-counter {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.food-item-counter-controls {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 10rem;
+}
+
+.food-item-counter-controls img {
+    width: 16px; 
+    height: 16px; 
+    cursor: pointer;
+}
+
+.food-item-counter-controls p {
+    color: white; 
+    font-size: 1rem; 
+}

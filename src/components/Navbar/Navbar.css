@@ -1,0 +1,91 @@
+.navbar {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo-img {
+    height: 35px; 
+}
+
+.navbar-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.menu a:hover {
+    color: #c49b5d;
+    cursor: pointer;
+}
+
+.menu .active {
+    color: #c49b5d;
+    border-bottom: 2px solid #c49b5d;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navbar-right img {
+    height: 24px;
+}
+
+.navbar-shopping-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.navbar-shopping-icon img {
+    height: 28px;
+}
+
+.navbar-shopping-icon .dot {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    background-color: #c49b5d;
+    border-radius: 50%;
+}
+
+.navbar-right button {
+    background-color: #c49b5d;
+    color: #ffffff;
+    padding: 8px 18px; 
+    border-radius: 25px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+}
+
+.navbar-right button:hover {
+    background-color: #a48454;
+}

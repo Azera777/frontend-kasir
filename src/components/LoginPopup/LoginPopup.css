@@ -1,0 +1,99 @@
+.login-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7); 
+    z-index: 1000;
+  }
+  
+  .login-popup-container {
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    overflow: hidden;
+  }
+  
+  .login-popup-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .login-popup-title h2 {
+    font-size: 1.8rem;
+    color: white;
+  }
+  
+  .login-popup-title img {
+    cursor: pointer;
+    width: 20px; 
+    height: 20px;
+  }
+  
+  
+  .login-popup-inputs input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .login-popup-inputs input::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .login-popup-container button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #C49B5D;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .login-popup-container button:hover {
+    background-color: #a48454;
+  }
+  
+  .login-popup-condition {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .login-popup-condition input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+  
+  .login-popup-condition p {
+    font-size: 0.9rem;
+  }
+  
+  .login-popup p {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .login-popup p span {
+    color: #C49B5D;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
