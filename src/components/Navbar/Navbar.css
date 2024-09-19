@@ -88,4 +88,5 @@
 
 .navbar-right button:hover {
     background-color: #a48454;
+    transition: background-color 0.3s ease;
 }

@@ -1,86 +1,159 @@
 .cart {
-    font-family: 'Kanit', sans-serif;
-    padding-top: 4rem;
-    color: #FFF;
+    font-family: "Kanit", sans-serif;
+    padding-top: 3rem;
+    color: #fff;
   }
   
   .cart-items {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 20px;
-    margin-bottom: 10rem;
+    padding: 15px;
   }
   
   .cart-items-title,
   .cart-items-title-card-items-item {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 0.5fr;
     align-items: center;
-    padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
+    padding: 2px 15px;
+    background-color: #0b1517;
+    border-radius: 15px;
     font-weight: bold;
   }
   
-  .cart-items-title p, 
+  .cart-items-title p,
   .cart-items-title-card-items-item p {
     font-size: 1rem;
-    color: #FFF;
+    color: #fff;
     font-weight: 400;
     margin: 0;
     text-align: center;
   }
   
-  .cart-items-title p:nth-child(1), 
-  .cart-items-title-card-items-item p:nth-child(1) {
-    flex: 1;
-  }
-  
-  .cart-items-title p:nth-child(2), 
-  .cart-items-title-card-items-item p:nth-child(2) {
-    flex: 2;
-  }
-  
-  .cart-items-title p:nth-child(3), 
-  .cart-items-title-card-items-item p:nth-child(3) {
-    flex: 1; 
-  }
-  
-  .cart-items-title p:nth-child(4), 
-  .cart-items-title-card-items-item p:nth-child(4) {
-    flex: 1; 
-  }
-  
-  .cart-items-title p:nth-child(5), 
-  .cart-items-title-card-items-item p:nth-child(5) {
-    flex: 1;
-  }
-  
-  .cart-items-title p:nth-child(6), 
-  .cart-items-title-card-items-item p:nth-child(6) {
-    flex: 0.5;
-  }
-  
   .cart-items-title-card-items-item img {
-    width: 130px;
-    height: 100px;
+    width: 120px;
+    height: 80px;
     object-fit: cover;
-    border-radius: 20%;
-    margin-right: 20px;
+    border-radius: 15%;
+    margin-right: 15px;
     transition: transform 0.3s ease;
-  }
-  
-  hr {
-    height: 1px;
-    border: none;
-    background-color: #FFF;
-    margin: 0;
+    grid-column: 1 / 2;
   }
   
   .cart-items-title-card-items-item p:last-child {
     cursor: pointer;
     font-weight: bold;
     color: #c49b5d;
+  }
+  
+  .cart-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    margin-bottom: 10rem;
+  }
+  
+  /* Cart Total on the left */
+  .cart-total {
+    background-color: #0b1517;
+    padding: 20px;
+    border-radius: 20px;
+    width: 350px;
+    color: #fff;
+    font-family: "Kanit", sans-serif;
+    flex: 1;
+  }
+  
+  .cart-total h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .cart-total-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .cart-total-details p {
+    margin: 0;
+  }
+  
+  .checkout-btn {
+    background-color: #c49b5d;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkout-btn:hover {
+    background-color: #b08a4a;
+  }
+  
+  .cart-details {
+    flex: 1;
+    padding-left: 30px;
+  }
+  
+  .cart-promocode {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 25px;
+  }
+  
+  .cart-promocode p {
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+  
+  .cart-promocode-input {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .cart-promocode-input input {
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #0b1517;
+    margin-right: 10px;
+    width: 350px;
+  }
+  
+  .submit-btn {
+    background-color: #c49b5d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #b08a4a;
+  }
+  
+  hr {
+    height: 1px;
+    border: none;
+    background-color: #fff;
+    margin: 10px 0;
   }
   
