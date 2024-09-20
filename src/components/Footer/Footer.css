@@ -60,7 +60,7 @@
 .footer hr {
   border: none;
   border-top: 1px solid white;
-  margin: 1rem 0;
+   margin: 1rem 0;/* fix footer*/
 }
 
 .footer-copyright {
