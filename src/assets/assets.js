@@ -1,4 +1,6 @@
 import logo from './logoCaffeinne.png'
+import logout from './logout.png'
+import profile from './profile-image.png'
 import coffeefeature1 from './coffee-feature.jpg'
 import coffeefeature2 from './coffee-feature2.jpg'
 import login_popup_bg from './login-popup-bg.jpg'
@@ -35,6 +37,8 @@ import food_10 from './pancakelicous.jpg'
 
 export const assets = {
     logo,
+    logout,
+    profile,
     login_popup_bg,
     close,
     checkmark,
